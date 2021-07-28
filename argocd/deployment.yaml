@@ -13,6 +13,7 @@ spec:
         run: mybox
     spec:
       containers:
+        # ecr Image
         - image: 776945434852.dkr.ecr.ap-northeast-2.amazonaws.com/repo:latest
           name: mybox
           ports:
