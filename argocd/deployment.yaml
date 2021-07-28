@@ -13,7 +13,7 @@ spec:
         run: mybox
     spec:
       containers:
-        - image: 679117170907.dkr.ecr.ap-northeast-2.amazonaws.com/mybox:0.1
+        - image: 776945434852.dkr.ecr.ap-northeast-2.amazonaws.com/repo:latest
           name: mybox
           ports:
             - containerPort: 8080
